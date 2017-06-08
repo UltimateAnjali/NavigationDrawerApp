@@ -32,6 +32,20 @@
             android:layout_height="wrap_content"
             android:hint="Enter Text"
             android:textColorHint="@color/colorSecondaryText"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descId"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:hint="Description"
+            android:textColorHint="@color/colorSecondaryText"
+            android:textColor="@color/colorPrimaryText"
             android:layout_gravity="center"
             android:gravity="center"/>
 
@@ -41,7 +55,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/detailId"
             android:text="Send"
-
             android:layout_gravity="center"
             android:gravity="center"
             android:background="@drawable/btn_drawable"

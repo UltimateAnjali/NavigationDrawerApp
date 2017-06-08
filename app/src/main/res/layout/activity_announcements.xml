@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/detailId"
             android:text="Send"
-            android:onClick="SendNotification"
+
             android:layout_gravity="center"
             android:gravity="center"
             android:background="@drawable/btn_drawable"

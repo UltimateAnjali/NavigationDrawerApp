@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".Announcements" />
         <activity android:name=".Subscriptions" />
-        <activity android:name=".Create_Channel"></activity>
+        <activity android:name=".Create_Channel"/>
     </application>
 
 </manifest>

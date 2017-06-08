@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class Announcements extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -17,6 +19,7 @@ public class Announcements extends AppCompatActivity implements NavigationView.O
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolBar;
     private NavigationView mNavView;
+    private Button mBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +71,7 @@ public class Announcements extends AppCompatActivity implements NavigationView.O
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
+
 
     @Override
     public void onBackPressed() {

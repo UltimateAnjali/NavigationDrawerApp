@@ -19,12 +19,34 @@
         <TextView
             android:id="@+id/text2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="Announcements"
             android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
             android:textSize="24dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Text"
+            android:textColorHint="@color/colorSecondaryText"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailId"
+            android:text="Send"
+            android:onClick="SendNotification"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/btn_drawable"
+            android:textColor="@color/color_white"
+            android:layout_margin="20dp" />
     </LinearLayout>
 
     <android.support.design.widget.NavigationView

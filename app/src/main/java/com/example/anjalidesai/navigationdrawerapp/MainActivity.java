@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mNavView = (NavigationView)findViewById(R.id.my_nav_view);
-        mNavView.setNavigationItemSelectedListener(MainActivity.this);
+        mNavView.setNavigationItemSelectedListener(this);
     }
 
     @Override

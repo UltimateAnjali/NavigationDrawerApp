@@ -20,7 +20,6 @@ public class Announcements extends AppCompatActivity implements NavigationView.O
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolBar;
     private NavigationView mNavView;
-    private Button mBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,13 +40,6 @@ public class Announcements extends AppCompatActivity implements NavigationView.O
         mNavView = (NavigationView)findViewById(R.id.my_nav_view);
         mNavView.setNavigationItemSelectedListener(Announcements.this);
 
-        mBtn = (Button)findViewById(R.id.btnSend);
-        mBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Hello from this app",Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
     @Override
